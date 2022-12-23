@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1671813551
+timestamp 1671820302
 << obsli1 >>
 rect 286104 285159 313888 314569
 << obsm1 >>
@@ -971,11 +971,14 @@ rect 268674 -7654 269294 711590
 rect 272394 -7654 273014 711590
 rect 276114 -7654 276734 711590
 rect 279834 -7654 280454 711590
-rect 289794 316660 290414 711590
-rect 289794 -7654 290414 283068
-rect 293514 -7654 294134 711590
-rect 297234 -7654 297854 711590
-rect 300954 -7654 301574 711590
+rect 289794 316849 290414 711590
+rect 293514 316849 294134 711590
+rect 297234 316849 297854 711590
+rect 300954 316849 301574 711590
+rect 289794 -7654 290414 282335
+rect 293514 -7654 294134 282335
+rect 297234 -7654 297854 282335
+rect 300954 -7654 301574 282335
 rect 304674 -7654 305294 711590
 rect 308394 -7654 309014 711590
 rect 312114 -7654 312734 711590
@@ -1110,14 +1113,17 @@ rect 265654 5611 268594 684317
 rect 269374 5611 272314 684317
 rect 273094 5611 276034 684317
 rect 276814 5611 279754 684317
-rect 280534 316580 289714 684317
-rect 290494 316580 293434 684317
-rect 280534 283148 293434 316580
-rect 280534 5611 289714 283148
-rect 290494 5611 293434 283148
-rect 294214 5611 297154 684317
-rect 297934 5611 300874 684317
-rect 301654 5611 304594 684317
+rect 280534 316769 289714 684317
+rect 290494 316769 293434 684317
+rect 294214 316769 297154 684317
+rect 297934 316769 300874 684317
+rect 301654 316769 304594 684317
+rect 280534 282415 304594 316769
+rect 280534 5611 289714 282415
+rect 290494 5611 293434 282415
+rect 294214 5611 297154 282415
+rect 297934 5611 300874 282415
+rect 301654 5611 304594 282415
 rect 305374 5611 308314 684317
 rect 309094 5611 312034 684317
 rect 312814 5611 315754 684317
@@ -2382,9 +2388,9 @@ rlabel metal4 s 217794 -7654 218414 711590 6 vccd1
 port 532 nsew power bidirectional
 rlabel metal4 s 253794 -7654 254414 711590 6 vccd1
 port 532 nsew power bidirectional
-rlabel metal4 s 289794 -7654 290414 283068 6 vccd1
+rlabel metal4 s 289794 -7654 290414 282335 6 vccd1
 port 532 nsew power bidirectional
-rlabel metal4 s 289794 316660 290414 711590 6 vccd1
+rlabel metal4 s 289794 316849 290414 711590 6 vccd1
 port 532 nsew power bidirectional
 rlabel metal4 s 325794 -7654 326414 711590 6 vccd1
 port 532 nsew power bidirectional
@@ -2466,7 +2472,9 @@ rlabel metal4 s 225234 -7654 225854 711590 6 vccd2
 port 533 nsew power bidirectional
 rlabel metal4 s 261234 -7654 261854 711590 6 vccd2
 port 533 nsew power bidirectional
-rlabel metal4 s 297234 -7654 297854 711590 6 vccd2
+rlabel metal4 s 297234 -7654 297854 282335 6 vccd2
+port 533 nsew power bidirectional
+rlabel metal4 s 297234 316849 297854 711590 6 vccd2
 port 533 nsew power bidirectional
 rlabel metal4 s 333234 -7654 333854 711590 6 vccd2
 port 533 nsew power bidirectional
@@ -2858,7 +2866,9 @@ rlabel metal4 s 221514 -7654 222134 711590 6 vssd1
 port 538 nsew ground bidirectional
 rlabel metal4 s 257514 -7654 258134 711590 6 vssd1
 port 538 nsew ground bidirectional
-rlabel metal4 s 293514 -7654 294134 711590 6 vssd1
+rlabel metal4 s 293514 -7654 294134 282335 6 vssd1
+port 538 nsew ground bidirectional
+rlabel metal4 s 293514 316849 294134 711590 6 vssd1
 port 538 nsew ground bidirectional
 rlabel metal4 s 329514 -7654 330134 711590 6 vssd1
 port 538 nsew ground bidirectional
@@ -2940,7 +2950,9 @@ rlabel metal4 s 228954 -7654 229574 711590 6 vssd2
 port 539 nsew ground bidirectional
 rlabel metal4 s 264954 -7654 265574 711590 6 vssd2
 port 539 nsew ground bidirectional
-rlabel metal4 s 300954 -7654 301574 711590 6 vssd2
+rlabel metal4 s 300954 -7654 301574 282335 6 vssd2
+port 539 nsew ground bidirectional
+rlabel metal4 s 300954 316849 301574 711590 6 vssd2
 port 539 nsew ground bidirectional
 rlabel metal4 s 336954 -7654 337574 711590 6 vssd2
 port 539 nsew ground bidirectional
@@ -3212,8 +3224,8 @@ port 645 nsew signal input
 string FIXED_BBOX 0 0 584000 704000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 1684128
-string GDS_FILE /home/runner/work/tiny_user_project_silice/tiny_user_project_silice/openlane/user_project_wrapper/runs/22_12_23_16_37/results/signoff/user_project_wrapper.magic.gds
-string GDS_START 502740
+string GDS_END 2293044
+string GDS_FILE /home/runner/work/tiny_user_project_silice/tiny_user_project_silice/openlane/user_project_wrapper/runs/22_12_23_18_30/results/signoff/user_project_wrapper.magic.gds
+string GDS_START 1111806
 << end >>
 
