@@ -1,0 +1,14 @@
+// @sylefeb 2020
+// https://github.com/sylefeb/Silice
+// MIT license, see LICENSE_MIT in Silice repo root
+
+algorithm main(input uint8 io_in, output uint8 io_out)
+{
+  uint28 cnt = 0; // 28 bits wide unsigned int
+
+  io_out := cnt[ widthof(cnt)-widthof(io_out) , widthof(io_out) ];
+
+  while (1) {         // if hardware, run forever
+    cnt  = cnt + 1; // increase cnt (loops back to zero after overflow)
+  }
+}
